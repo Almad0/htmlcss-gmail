@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Gmail</title>
+    <link rel="stylesheet" href="assets/css/master.css">
   </head>
 
 
@@ -11,6 +12,11 @@
   <body>
 
     <header>
+      <img src="assets/img/gmail_logo.png" alt="Logo di gmail">
+      <div class="head">
+        <h2>Gmail</h2>
+      </div>
+      <hr>
 <!-- qui il logo gmail e il titolo, forse h2
 usare una br forse è meglio qui -->
     </header>
@@ -18,15 +24,47 @@ usare una br forse è meglio qui -->
 
 
     <main>
-<!-- qui prima gli imput (form), poi gli unread, poi la section con
-checkbox, simboli ed ogetto mail + testo -->
+      <section>
+        <input id="search" type="text" name="search" value="" placeholder="Search">
+        <button id="vai" type="button" name="vai">VAI</button>
+        <div class="unread">
+          <p>You have <span id="trenta">30</span> unread</p>
+          <hr>
+        </div>
+      </section>
+
+      <section>
+        <div class="monoline">
+          <input type="checkbox" name="uno" value="">
+          <label for="uno"> Oggetto della mail</label>
+        </div>
+
+        <div class="monoline" id="bianco"">
+          <input type="checkbox" name="uno" value="">
+          <label for="uno"> Oggetto della mail</label>
+        </div>
+
+        <div class="monoline">
+          <input type="checkbox" name="uno" value="">
+          <label for="uno"> Oggetto della mail</label>
+          <span><p>culo</p></span>
+        </div>
+
+        <div class="monoline">
+          <input type="checkbox" name="uno" value="">
+          <label for="uno"> Oggetto della mail</label>
+        </div>
+      </section>
+
 
 <!-- provare con padding, margin e border (top, bottom) per le linee -->
     </main>
 
 
     <footer>
-<!-- gmail povered by Alessandro -->
+      <hr>
+      <p><strong id="foot">Gmail</strong><em>powered by Ale</em>
+
     </footer>
 
   </body>

@@ -1,0 +1,30 @@
+body{
+  background-image: url('../img/legno.jpg');
+  font-family: sans-serif;
+}
+
+.head{
+  display: inline-block;
+  color: white;
+  margin-bottom: 20px;
+}
+
+hr{
+  border: solid 1px white;
+}
+
+.unread{
+  color: white;
+  font-size: 40px;
+}
+
+#trenta{
+  background: orange;
+  border-radius: 50%;
+  background-size: ;
+
+}
+
+.monoline{
+  color: white;
+}
