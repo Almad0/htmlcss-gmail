@@ -1,16 +1,33 @@
 body{
   background-image: url('../img/legno.jpg');
   font-family: sans-serif;
+  margin: auto;
+  width: 70%;
 }
 
 .head{
-  display: inline-block;
   color: white;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.v-middle{
+  display: inline-block;
+  vertical-align: middle;
 }
 
 hr{
   border: solid 1px white;
+}
+
+#trenta{
+  background: orange;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+#vai{
+  border-radius: 20%;
 }
 
 .unread{
@@ -18,13 +35,22 @@ hr{
   font-size: 40px;
 }
 
-#trenta{
-  background: orange;
-  border-radius: 50%;
-  background-size: ;
-
+.monoline{
+  border-bottom: solid 2px rgb(0,0,0);
+  background-color: lightgray;
+  color: gray;
 }
 
-.monoline{
+.bianco{
+  background-color: white;
+}
+
+strong{
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.foot{
+  text-align: center;
   color: white;
 }

@@ -7,21 +7,15 @@
     <link rel="stylesheet" href="assets/css/master.css">
   </head>
 
-
-
   <body>
 
     <header>
-      <img src="assets/img/gmail_logo.png" alt="Logo di gmail">
       <div class="head">
-        <h2>Gmail</h2>
+        <img class="v-middle" src="assets/img/gmail_logo.png" alt="Logo di gmail">
+        <span class="v-middle"><h2>Gmail</h2></span>
       </div>
       <hr>
-<!-- qui il logo gmail e il titolo, forse h2
-usare una br forse è meglio qui -->
     </header>
-
-
 
     <main>
       <section>
@@ -29,45 +23,40 @@ usare una br forse è meglio qui -->
         <button id="vai" type="button" name="vai">VAI</button>
         <div class="unread">
           <p>You have <span id="trenta">30</span> unread</p>
-          <hr>
         </div>
+        <hr>
       </section>
 
       <section>
         <div class="monoline">
-          <input type="checkbox" name="uno" value="">
-          <label for="uno"> Oggetto della mail</label>
+          <input type="checkbox" name="uno" id="uno">
+          <label for="uno"> <strong>&starf; Oggetto della mail</strong> - testo della email...</label>
         </div>
 
-        <div class="monoline" id="bianco"">
-          <input type="checkbox" name="uno" value="">
-          <label for="uno"> Oggetto della mail</label>
-        </div>
-
-        <div class="monoline">
-          <input type="checkbox" name="uno" value="">
-          <label for="uno"> Oggetto della mail</label>
-          <span><p>culo</p></span>
+        <div class="monoline bianco">
+          <input type="checkbox" name="due" id="due">
+          <label for="due"> <strong>&starf; Oggetto della mail</strong> - testo della email...</label>
         </div>
 
         <div class="monoline">
-          <input type="checkbox" name="uno" value="">
-          <label for="uno"> Oggetto della mail</label>
+          <input type="checkbox" name="uno" id="tre">
+          <label for="tre"> <strong>&starf; Oggetto della mail</strong> - testo della email...</label>
+        </div>
+
+        <div class="monoline">
+          <input type="checkbox" name="uno" id="quattro">
+          <label for="quattro"> <strong>&starf; Oggetto della mail</strong> - testo della email...</label>
         </div>
       </section>
-
-
-<!-- provare con padding, margin e border (top, bottom) per le linee -->
     </main>
 
-
     <footer>
-      <hr>
-      <p><strong id="foot">Gmail</strong><em>powered by Ale</em>
-
+      <div class="foot">
+        <hr>
+        <h3 style="display: inline;">GMail</h3> <em>powered by Alessandro</em>
+      </div>
     </footer>
 
   </body>
-
 
 </html>
